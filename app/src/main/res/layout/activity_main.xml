@@ -13,7 +13,8 @@
         android:layout_height="wrap_content"
         android:backgroundTint="@color/jadeit"
         android:text="Reset"
-        android:layout_centerHorizontal="true"/>
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/znak"/>
 
     <TextView
         android:id="@+id/gracz1punkty"
@@ -143,7 +144,7 @@
         android:layout_below="@id/wybierzText"
         android:layout_centerHorizontal="true"
         android:text="X"
-        android:textSize="26sp"
-        android:textColor="@color/ciemna_lavenda"/>
+        android:textColor="@color/ciemna_lavenda"
+        android:textSize="26sp" />
 
 </RelativeLayout>
